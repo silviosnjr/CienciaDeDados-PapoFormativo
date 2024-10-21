@@ -9,8 +9,8 @@ async function visualizarInformacoesGlobais(){
     paragrafo.classList.add("graficos-container__texto")
 
     paragrafo.innerHTML = `
-        Você sabia que o mundo tem ${dados.total_pessoas_mundo} bilhões de pessoas que aproximadamente ${dados.total_pessoas_conectadas} bilhões estão conectadas em alguma rede social e passam em média ${dados.tempo_medio}  horas conectadas.
-        Isso significa que aproximadamente 63.89% de pessoas conectadas em alguma rede social.
+        Você sabia que o mundo tem <span>${dados.total_pessoas_mundo} bilhões</span> de pessoas que aproximadamente <span>${dados.total_pessoas_conectadas} bilhões</span> estão conectadas em alguma rede social e passam em média <span>${dados.tempo_medio}  horas </span>conectadas.
+        Isso significa que aproximadamente <span>63.89%</span> de pessoas conectadas em alguma rede social.
     `
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
