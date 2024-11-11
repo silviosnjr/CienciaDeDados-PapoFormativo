@@ -13,7 +13,7 @@ async function quantidadesUsuarios(){
             y : quantidadesUsuarios,
             type: 'bar',
             marker: {
-                color: getComputedStyle(document.body).getPropertyValue('--primary-color')
+                color: getCSS('--primary-color')
             }          
         }
     ]
