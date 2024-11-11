@@ -32,7 +32,6 @@ async function quantidadesUsuarios(){
     
     }
 
-
     const grafico = document.createElement("div")
     grafico.className = 'grafico'
         
