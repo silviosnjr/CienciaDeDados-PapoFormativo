@@ -10,7 +10,11 @@ async function quantidadesUsuarios(){
         {
             x : nomeDasRedes,
             y : quantidadesUsuarios,
-            type: 'bar'
+            type: 'bar',
+            marker: {
+                color: getComputedStyle(document.body).getPropertyValue('--primary-color')
+            }
+          
         }
     ]
 
