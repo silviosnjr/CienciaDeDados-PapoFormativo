@@ -18,6 +18,12 @@ async function quantidadesUsuarios(){
         }
     ]
 
+    const layout = {
+        plot_bgcolor: getCSS('--bg-color'),
+        paper_bgcolor: getCSS('--bg-color')
+    }
+
+
     const grafico = document.createElement("div")
     grafico.className = 'grafico'
         
